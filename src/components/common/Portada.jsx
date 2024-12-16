@@ -2,6 +2,7 @@ import { Button, Container } from "react-bootstrap";
 import linkedin from "../../../public/linkedin.png";
 import github from "../../../public/github.png";
 import SobreMi from "./SobreMi";
+import Tecnologias from "./Tecnologias";
 
 
 const Portada = () => {
@@ -25,6 +26,7 @@ const Portada = () => {
                 </a>
             </section>
             <SobreMi/>
+            <Tecnologias/>
         </Container>
     );
 };

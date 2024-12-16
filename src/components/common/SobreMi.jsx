@@ -1,3 +1,5 @@
+import perfil from "../../../public/perfil.jpeg";
+
 const SobreMi = () => {
   return (
     <section className="sobre-mi">
@@ -16,6 +18,9 @@ const SobreMi = () => {
           make a positive impact in everything I do. Programming is more than my
           profession, it is my passion!
         </p>
+        <div className="mt-5">
+            <img className="img-prefil" src={perfil} alt="Foto de perfil" />
+        </div>
       </section>
     </section>
   );

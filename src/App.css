@@ -16,11 +16,12 @@ body{
 }
 
 .texto-secundario{
-  font-family: "Roboto", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn-resume{
   background-color: #04F104 !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: none !important;
 }
 
@@ -80,4 +81,49 @@ body{
 .texto-sobre-mi{
   font-size: 1.1rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-prefil{
+  width: 25%;
+  border-radius: 50%;
+  border: 3px solid #04F104;
+}
+
+.tecnologias{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+section, img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
+}
+
+.icono-tecnologia{
+  width: 15%;
+  transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icono-tecnologia:hover{
+  transform: scale(1.2) rotate(15deg);
+}
+
+.subtitulo{
+  font-family: "Silkscreen", sans-serif;
 }
