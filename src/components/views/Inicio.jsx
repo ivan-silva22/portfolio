@@ -1,9 +1,10 @@
-import SobreMi from "../common/SobreMi";
+import Portada from "../common/Portada";
+
 
 const Inicio = () => {
     return (
         <>
-            <SobreMi/>
+            <Portada/>
         </>
     );
 };

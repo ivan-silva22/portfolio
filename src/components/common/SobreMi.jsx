@@ -1,29 +1,24 @@
-import { Button, Container } from "react-bootstrap";
-import linkedin from "../../../public/linkedin.png";
-import github from "../../../public/github.png";
-
 const SobreMi = () => {
-    return (
-        <Container className="text-center">
-            <section className="contenedor-titulo">
-                <div className="maquina-escribir">
-                <h1 className="titulo">HI, I'M IVÁN SILVA 👋</h1>
-                </div>
-                <h3 className="texto-secundario">Fullstack Developer</h3>
-            </section>
-            <section className="mt-5">
-                <Button className="btn btn-resume texto-secundario">Download Resume</Button>
-            </section>
-            <section className="mt-5">
-                <a href="https://www.linkedin.com/in/ivan-silva22/" target="_blanck">
-                    <img className="logo-contacto me-4" src={linkedin} alt="Logo de linkedin" />
-                </a>
-                <a href="https://github.com/ivan-silva22" target="_blanck">
-                    <img className="logo-contacto" src={github} alt="Logo de github" />
-                </a>
-            </section>
-        </Container>
-    );
+  return (
+    <section className="sobre-mi">
+      <section>
+        <h2 className="titulo">ABOUT ME</h2>
+        <hr className="linea" />
+      </section>
+      <section className="mt-5">
+        <p className="texto-sobre-mi">
+          I am a passionate person about programming and technology. I am
+          motivated by solving problems and finding creative solutions that make
+          a difference. Every project I do is an opportunity to learn, grow and
+          overcome new challenges, both professionally and personally. I firmly
+          believe in continuous learning and constant improvement. I am always
+          looking for new tools and knowledge that allow me to add value and
+          make a positive impact in everything I do. Programming is more than my
+          profession, it is my passion!
+        </p>
+      </section>
+    </section>
+  );
 };
 
 export default SobreMi;
