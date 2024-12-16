@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+  background-color: #2B2B2B !important;
+  color: #FFFF !important;
+}
+
+.contenedor-titulo{
+  margin-top: 150px;
+}
+
+.titulo{
+  font-family: "Silkscreen", sans-serif;
+  font-size: 4rem;
+}
+
+.texto-secundario{
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-resume{
+  background-color: #04F104 !important;
+  border: none !important;
+}
+
+.btn-resume:hover{
+  background-color: #057105 !important;
+}
+
+.maquina-escribir{
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #ffff;
+  width: 0;
+  animation: escribir 4s steps(30) 1s forwards, cursor 0.75s step-end infinite;
+}
+
+@keyframes escribir{
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes cursor{
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ffff;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.logo-contacto{
+  width: 40px;
+  transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-contacto:hover{
+  transform: scale(1.5) rotate(15deg);
+}
+
