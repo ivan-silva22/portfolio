@@ -43,35 +43,24 @@ const Tecnologias = () => {
           <img className="icono-tecnologia" src={react} alt="Icono de REACT" />
         </Col>
         <Col md={4}>
-          <img className="icono-tecnologia" src={react} alt="Icono de REACT" />
-        </Col>
-        <Col md={4}>
           <img className="icono-tecnologia" src={mongo} alt="Icono de MONGO" />
         </Col>
         <Col md={4}>
           <img className="icono-tecnologia" src={mysql} alt="Icono de MYSQL" />
         </Col>
-      </Row>
-      <article className="mt-5">
-        <div>
-          <h2 className="subtitulo">Other technologies</h2>
-          <hr className="linea" />
-        </div>
-        <Row className="my-5">
-            <Col md={6}>
+        <Col md={4}>
                 <img className="icono-tecnologia" src={figma} alt="Icono de FIGMA" />
             </Col>
-            <Col md={6}>
+            <Col md={4} className="my-4">
                 <img className="icono-tecnologia" src={postman} alt="Icono de POSTMAN" />
             </Col>
-            <Col md={6} className="mt-4">
+            <Col md={4} className="mt-4">
                 <img className="icono-tecnologia" src={visual} alt="Icono de VS" />
             </Col>
-            <Col md={6} className="mt-4">
+            <Col md={4} className="mt-4">
                 <img className="icono-tecnologia" src={git} alt="Icono de GIT" />
             </Col>
-        </Row>
-      </article>
+      </Row>
     </section>
   );
 };

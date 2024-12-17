@@ -21,8 +21,11 @@ body{
 
 .btn-resume{
   background-color: #04F104 !important;
+  color: #ffff !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem !important;
   border: none !important;
+  height: auto !important;
 }
 
 .btn-resume:hover{
@@ -91,7 +94,7 @@ body{
 
 .tecnologias{
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .icono-tecnologia{

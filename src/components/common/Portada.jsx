@@ -10,14 +10,14 @@ const Portada = () => {
       <Container className="text-center portada">
         <section className="contenedor-titulo">
           <div className="maquina-escribir">
-            <h1 className="titulo">HI, I'M IVÁN SILVA 👋</h1>
+            <h1 className="titulo">HI, I'M IVÁN SILVA 🧑‍💻</h1>
           </div>
           <h3 className="texto-secundario">Fullstack Developer</h3>
         </section>
         <section className="mt-5">
-          <Button className="btn btn-resume texto-secundario">
+          <a href="/cv.pdf" download="ivan-silva-cv.pdf" className="btn btn-resume texto-secundario ">
             Download Resume
-          </Button>
+          </a>
         </section>
         <section className="mt-5">
           <a href="https://www.linkedin.com/in/ivan-silva22/" target="_blanck">
